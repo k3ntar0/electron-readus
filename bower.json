@@ -1,0 +1,21 @@
+{
+  "name": "electron-readus",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "k3ntar0 <k3ntar01wata@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/k3ntar0/electron-readus",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.6",
+    "marked": "^0.6.0"
+  }
+}
