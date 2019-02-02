@@ -12,7 +12,7 @@ ngModule.controller('MainController', function ($scope) {
 
   // Get README.md
   main.getFile = function(file) {
-    main.fileText = fileUtl.getAsText(file.filepath);
+    main.fileText = fileUtil.getAsText(file.filepath);
   };
 
   fileUtil.fetchReadmeList(baseDir, function (err, fileList) {
